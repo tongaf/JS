@@ -12,6 +12,7 @@ var meses = [
     {"mes":"noviembre", "ingreso" : 35483,"egreso" : 53133 } ,
     {"mes":"diciembre", "ingreso" : 3843,"egreso" : 348133 }
  ]
-for ( var i=0 ; i<meses.length ; i++) {
+
+ for ( var i=0 ; i<meses.length ; i++) {
     alert ("el balance de " + meses [i].mes + " es $"+ (meses[i].ingreso - meses[i].egreso))
 }
