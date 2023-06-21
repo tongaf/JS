@@ -14,9 +14,9 @@ var meses = [
  ]
 for ( var i=0 ; i<meses.length ; i++) {
     
-    var balance = (meses[i].ingreso - meses[i].egreso)
+var balance = (meses[i].ingreso - meses[i].egreso)
 
-    if (balance < 0) {
+if (balance < 0) {
         alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " -1")
     } else if (balance > 0) {
         alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " 1")
@@ -24,18 +24,3 @@ for ( var i=0 ; i<meses.length ; i++) {
         alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " 0")
     } 
 }
-
-
-/*0<1 0>-1 0=0
-
-meses[4].egreso=
-*/
-
-/*function meses (ingreso, egreso) {
-    console.log (ingreso - egreso)
-}*/
-
-/*case "0<meses[i].ingreso - meses[i].egreso"
-    alert (-1)
-    break;
-*/
