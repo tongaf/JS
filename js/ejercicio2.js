@@ -4,9 +4,9 @@ var creditos = [
     {"plan" : "plan003" , "capital" : 485000 , "plazo" : 60 , "tasa" : 0.23}
 ]
 
-for ( var i=0 ; i<creditos.length ; i++) {
+/*for ( var i=0 ; i<creditos.length ; i++) {
     alert (" la tasa de interes del " + creditos[i].plan + " es " + ((creditos[i].capital * creditos[i].plazo *creditos[i].tasa) / 100 ) )
-}
+}*/
 
 
 
@@ -20,8 +20,8 @@ resultados.push({"plan": creditos[2].plan, "interesgenerado": ((creditos[2].capi
 
 console.log(resultados)
 
-alert("el interes del mes " + resultados[0].plan + "es: " + resultados[0].interesgenerado)
-alert("el interes del mes " + resultados[1].plan + "es: " + resultados[1].interesgenerado)
-alert("el interes del mes " + resultados[2].plan + "es: " + resultados[2].interesgenerado)
+alert("el interes generado del " + resultados[0].plan + "es: " + resultados[0].interesgenerado)
+alert("el interes generado del " + resultados[1].plan + "es: " + resultados[1].interesgenerado)
+alert("el interes generado del " + resultados[2].plan + "es: " + resultados[2].interesgenerado)
 
 

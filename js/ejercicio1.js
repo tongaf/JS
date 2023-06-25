@@ -19,7 +19,7 @@ var balance = (meses[i].ingreso - meses[i].egreso)
 if (balance < 0) {
         alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " -1")
     } else if (balance > 0) {
-        alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " 1")
+        alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado = 1" + " 1")
     } else if (balance == 0) {
         alert ("el balance de " + meses [i].mes + " es $"+ balance + ". Resultado =" + " 0")
     } 
