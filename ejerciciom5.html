@@ -5,9 +5,9 @@
 <title>Recibir por Javascript</title>
 <script type="text/javascript">
 function recibir() {
-  var cf=document.getElementById("cf").value;
-  var pv=document.getElementsByName("pv")[0].value;
-  var cv=document.getElementById("cv").value;
+  var cf = document.getElementById("cf").value;
+  var pv = document.getElementsByName("pv")[0].value;
+  var cv = document.getElementById("cv").value;
   var resultado= cf/(pv-cv)
 
   document.getElementById("escribir").innerHTML= resultado  ;
@@ -20,11 +20,11 @@ function borrar() {
 <body>
 <h1>Calculo punto de equilibrio</h1>
 <form id="form_js">
-  <p><input type="number" name="cf"  id="cf" placeholder="Escribe tu costos fijos" size="20" autofocus ></p>
-  <p><input type="number" name="pv" placeholder="Escribe tu precio de venta" size="30"></p>
-  <p><input type="number" name="cv" id="cv" placeholder="Escribe tu costos variables" size="30"></p>
-  <p><input type="reset" value="Borrar" onclick="borrar()"/></p>
-  <p><input type="button"  onclick="recibir()" value="Enviar"></p>
+  <p> <input type="number" name="cf"  id="cf" placeholder="Escribe tu costos fijos" size="20" autofocus > </p>
+  <p> <input type="number" name="pv" placeholder="Escribe tu precio de venta" size="30"> </p>
+  <p> <input type="number" name="cv" id="cv" placeholder="Escribe tu costos variables" size="30"> </p>
+  <p> <input type="reset" value="Borrar" onclick="borrar()"/> </p>
+  <p> <input type="button"  onclick="recibir()" value="Enviar"> </p>
 </form>
 <br/>
 <div id="escribir"></div>
